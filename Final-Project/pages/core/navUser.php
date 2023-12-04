@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBR UNITY NET</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+<nav class="navbar">
+  <div class="navbar-brand">
+    <h1 class="navbar-item is-primary" style="font-weight:bold; font-size: 2rem; color:#00d1b2; " >CBR UNITY NET</h1>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="user.php">
+      Beranda
+      </a>
+      <a class="navbar-item" href="./../pages/admin.php">
+        Tentang
+      </a>
+      <a class="navbar-item" href="./../pages/admin.php">
+        Galeri
+      </a>
+      <div class="navbar-start">
+        <a class="navbar-item" href="showUser.php" >
+          Tampilkan Data Produk
+        </a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+            <a class="button is-primary" href="./../backend/logout.php" >
+              <strong>Logout</strong>
+            </a>
+      </div>
+    </div>
+  </div>
+</nav>
